@@ -3,13 +3,31 @@
   color: #DC143C;
   font-weight: bold;
   font-size: 70px;
-  position: absolute;
-  left: 400px;
+  position: relative;
+  left: 380px;
 }
 .intro {
   font-family:'PT Sans', sans-serif;
+  line-height: 1.0;
 }
+
 #onion {
+  position: absolute;
+  left: 150px;
+  top: 50px;
+  z-index: 2
+}
+#sandint {
   position: relative;
   left: 200px;
+  font-family:'Indie Flower', cursive;
+  color: #DC143C;
+  font-weight: bold;
+  font-size: 70px;
+}
+.line {
+  width: 20px;
+  position: relative;
+  top: 100px;
+  z-index: 10;
 }
