@@ -1,12 +1,15 @@
 .title2 {
-  font-family: cursive;
+  font-family:'Indie Flower', cursive;
   color: #DC143C;
   font-weight: bold;
   font-size: 70px;
   position: absolute;
   left: 400px;
 }
+.intro {
+  font-family:'PT Sans', sans-serif;
+}
 #onion {
   position: relative;
-  left: 200px; 
+  left: 200px;
 }
