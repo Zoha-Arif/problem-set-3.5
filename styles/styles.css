@@ -2,8 +2,11 @@
   font-family: cursive;
   color: #DC143C;
   font-weight: bold;
-  font-size: 16px;
-  position: relative;
+  font-size: 70px;
+  position: absolute;
   left: 400px;
-  right: 400px;
+}
+#onion {
+  position: relative;
+  left: 200px; 
 }
