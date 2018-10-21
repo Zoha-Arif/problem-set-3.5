@@ -10,15 +10,19 @@
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Charmonman:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans" rel="stylesheet">
   </head>
   <body>
-    <div class="nav">
-      <a href="index.html"><button>Home</button></a>
-    	<a href= "mysubtopic1.html"><button>The Kitchen Basics</button></a>
-    	<a href="mysubtopic2.html"><button>The Meat</button></a>
-    	<a href="mysubtopic3.html"><button>Butter Gallery</button></a>
+    <div id="nav">
+      <a href="index.html"><button class="navb">Home</button></a>
+    	<a href= "mysubtopic1.html"><button class="navb">The Kitchen Basics</button></a>
+    	<a href="mysubtopic2.html"><button class="navb">The Meat</button></a>
+    	<a href="mysubtopic3.html"><button class="navb">Butter Gallery</button></a>
+    </div>
       <style>
-  .nav {
+  #nav {
       position: relative;
       left: 0;
       bottom: 0;
@@ -28,34 +32,44 @@
       text-align: center;
   }
   </style>
-    </div>
     <div id="home">
-      <h1 class="title2"><a id="Welcome">WELCOME</a></h1>
+      <h1 class="title2"><a id="Welcome">WELCOME TO</a></h1>
       <h1 class="title2"><a id="TheOnion">The Onion</a></h1>
-      <img src="images\Onion.png" height="180px" width="180px" id="onion">
+      <img src="images\onion7.png" height="290px" width="270px" id="onion">
+      <img src="images\line.png" height="200px" width="650px" id="line">
     </div>
+    <hr/>
 	  <h2 class="intro">The Onion is the official kingdom of three sandwich lords who collaborately work together to provide sandwich comedy for new and seasoned English grammar learners!</h2>
 	  <h2 class="intro">Here, we understand the impotence of proofreading your peppers because if you are a bed spiller or depend on a spell chukker or don't catch your grammar missed aches, you won't go to an ivory legeal collegue, like Harvard, Jail, or Prison. </h2>
 	  <h2 class="intro">English may be one of the largest and most difficult languages to learn for non-native speakers because of the odd spelling system and grammatical patterns.
       But we like to teach grammar the fun way for new and seasoned English Speakers! Through BLTs, Grilled Cheeses, PB & Js, and many more to come!
     Here, you'll find basic English grammar information, from the  <a href="mysubtopic1.html"> parts of speech <a>, <a href="mysubtopic2.html"> to forming sentences </a>,
     to great <a href="mysubtopic3.html"> resources <a> and ways of mastering English!</h2>
+    <img src="images\ketchupline.png" height="130px" width="600px" id="ketchupline">
     <h1 id="sandint">Meet the Grammar Onion Lords!</h1>
-    <h3 class="charintro" id="yellow">Meet the Yellow Sub!</h3>
+    <h3 id="charsub">Meet the Yellow Sub!</h3>
     <img src="images\yellowsub.png" id="yellowsub">
-    <h3 class="charintro">Meet Hot Dog Joe!</h3>
+    <h3 id="charjoe">Meet Hot Dog Joe!</h3>
     <img src="images\HotDogJoe.png" id="HotDogJoe">
-    <h3 class="charintro">Meet Big Deli Charli!</h3>
-    <img src="images\BigDelliCharlie.png" id="Charlie">
-    <hr/>
-    <h3>For new english speakers, measure your English-speaking skills!</h3>
+    <h3 id="charcharli">Meet Big Deli Charli!</h3>
+    <img src="images\charlie.png" id="Charlie" height="350px" width="400px">
+    <img src="images\ketchupline.png" height="130px" width="600px" id="ketchupline2">
+    <style>
+    #ketchupline2 {
+      position: relative;
+      top: 15px;
+      left: 350px;
+    }
+    </style>
+    <h3 id="tabintro">For new english speakers, measure your English-speaking skills!</h3>
+    <img src="images\onions78.png" height="150px" width="300px" id="hunonions">
     <table>
       <thead>
-        <th>Basic User</th>
-        <th>Independent User</th>
-        <th>Proficient User</th>
+        <th class="thed">Basic User</th>
+        <th class="thed">Independent User</th>
+        <th class="thed">Proficient User</th>
       </thead>
-      <tbody>
+      <tbody id="tbod">
         <tr>
           <td>You can deal with very limited day to day activities.</td>
           <td>You can deal with varied familiar or predictable everyday activities</td>
@@ -70,13 +84,13 @@
           <td>You can communicate easily with native speakers. You can understand and express some complex ideas and topics.</td>
           <td>You can understand almost everything you hear and need. You can communicate very fluently and precisely in complex situations.</td>
       </tbody>
-      <tfoot>
-        <td colspan="3">Interested in a more precise measure. <a href="http://www.languagelevel.com/english/">Click here!<a></td>
+      <tfoot id="tfot">
+        <td colspan="3">Interested in a more precise measure? <a href="http://www.languagelevel.com/english/">Click here!<a></td>
       </tfoot>
     </table>
     <footer class="footer">
-      <p> © 2018 <a href="https://www.ucvts.tec.nj.us/">AIT | APCSP</a> <br/> theonion@gmail.com</p>
-      <p>***Opening paragraph is credited to Taylor Mali***</p>
+      <p> © 2018 <a href="https://www.ucvts.tec.nj.us/">AIT | APCSP</a> <br/> theonion@gmail.com <br/>
+        Opening paragraph is credited to Taylor Mali </p>
     </footer>
     <style>
 .footer {
@@ -84,9 +98,12 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: yellow;
+    background-color: #FFD700;
     color: black;
     text-align: center;
+    font-family:'PT Sans', sans-serif;
+    line-height: 1.0;
+    font-weight: bold;
 }
 </style>
   </body>

@@ -1,3 +1,23 @@
+* {
+  line-height: 1.0;
+}
+
+button:hover {
+  color: #FFD700;
+}
+
+button:active {
+  color: #FFD700;
+}
+
+link:visited {
+  color: #483D8B;
+}
+
+body {
+  background-color: white;
+}
+
 .intro {
   font-family:'PT Sans', sans-serif;
   line-height: 1.0;
@@ -5,14 +25,15 @@
 
 #onion {
   position: absolute;
-  left: 100px;
-  top: 150px;
+  left: 45px;
+  top: 190px;
   z-index: 2
 }
 #sandint {
   position: relative;
+  top: 0px;
   left: 200px;
-  font-family:'Indie Flower', cursive;
+  font-family:'Acme', sans-serif;
   color: #DC143C;
   font-weight: bold;
   font-size: 70px;
@@ -24,25 +45,50 @@
   z-index: 10;
 }
 
-.charintro {
-  font-family: 'Patrick Hand', cursive;
+#charsub {
+  font-family: 'Fjalla One', sans-serif;
   color: #FFA500;
-  font-size: 50px;
+  font-size: 40px;
+  position: absolute;
+  top: 1160px;
+  left: 80px;
+}
+
+#charjoe {
+  font-family: 'Fjalla One', sans-serif;
+  color: #FFA500;
+  font-size: 40px;
+  position: absolute;
+  top: 1160px;
+  left: 570px;
+}
+
+#charcharli {
+  font-family: 'Fjalla One', sans-serif;
+  color: #FFA500;
+  font-size: 40px;
+  position: absolute;
+  top: 1160px;
+  left: 1000px;
 }
 
 #yellowsub {
   position: relative;
+  top: 30px;
+  left: 0px;
 }
 
 #HotDogJoe {
-  position: absolute;
-  left: 600px;
-  top: 800px;
+  position: relative;
+  left: 10px;
+  top: 30px;
 
 }
 
 #Charlie {
-  position: relative;
+  position: absolute;
+  top: 1250px;
+  left: 940px;
 }
  #yellow {
    position: absolute;
@@ -51,7 +97,7 @@
 
  #home {
    background-color: #FFD700;
-   height: 900px;
+   height: 600px;
    width: 1500px;
  }
 
@@ -60,29 +106,77 @@
    font-size: 180px;
    color: #2F4F4F;
    position: absolute;
-   left: 300px;
+   left: 330px;
    top: 140px;
    font-weight: bold;
  }
 
 #TheOnion {
-  font-family:'Indie Flower', cursive;
+  font-family: 'Acme', sans-serif;
   color: #DC143C;
   font-weight: bold;
   font-size: 200px;
   position: absolute;
-  left: 280px;
-  top: 390px;
+  left: 350px;
+  top: 300px;
 }
 
-/*
-#to {
-  font-family: 'Lobster', cursive;
-  font-weight: bold;
-  font-size: 150px;
+#line {
   position: absolute;
-  left: 580px;
-  top: 320px;
-  /* <h1 class="title2"><a id="to">to</a></h1>
+  top: 450px;
+  left: 450px;
 }
-*\
+
+.navb {
+  background-color: white;
+  position: relative;
+  left: 400px;
+  outline-color: #483D8B;
+  color: #483D8B;
+  font-family: 'Black Han Sans', sans-serif;
+}
+
+#tabintro {
+  font-family: 'Acme', sans-serif;
+  font-size: 30px;
+  position: relative;
+  top: 20px;
+  color: #DC143C;
+  font-weight: bold;
+}
+
+.thed {
+  font-family: 'Acme', sans-serif;
+  color: #DC143C;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#tbod, #tfot {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+}
+
+table, th, td {
+   border: 1px solid black;
+}
+
+#ketchupline {
+  position: relative;
+  top: 10px;
+  left: 350px;
+}
+
+#hunonions {
+  position: absolute;
+  top: 1600px;
+  left: 1000px;
+  border-radius: 26px;
+  border: 2px solid Black;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+}
+/*
+    'Indie Flower', cursive;
+}
