@@ -14,6 +14,7 @@ body {
   font-size: 100px;
   color: #2F4F4F;
   position: relative;
+  top: 20px;
   left: 170px;
 }
 
@@ -43,4 +44,37 @@ div {
   font-family:'PT Sans', sans-serif;
   line-height: 1.0;
   font-weight: bold;
+}
+
+h3[title ~="POS"] {
+  font-family: 'Acme', sans-serif;
+  color: #DC143C;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+div[title ~="POS1"] {
+  border-width: 5px;
+  border-color: black;
+  border-style: dotted;
+  width: 500px;
+  height: auto;
+  margin: 15px;
+  padding: 10px;
+}
+
+#Pronouns {
+  position: absolute;
+  left: 650px;
+  top: 1000px;
+}
+
+div + h3 {
+  background-color: white;
+  color: Black;
+}
+
+div ~ ol {
+  background-color: white;
+  color: Black;
 }
