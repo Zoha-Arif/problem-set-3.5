@@ -167,16 +167,40 @@ table, th, td {
   left: 350px;
 }
 
+img[alt ~="Onions"] {
+  border-radius: 26px;
+  border: 2px solid Black;
+  padding: 5px;
+}
+
 #hunonions {
   position: absolute;
   top: 1600px;
   left: 1000px;
-  border-radius: 26px;
-  border: 2px solid Black;
-  padding: 5px;
   width: 200px;
   height: 150px;
 }
+
+#nav {
+  position: relative;
+  top: 10px;
+}
+
+p {
+  color: Black;
+}
+
+h2 {
+  color: Black;
+}
+
+h3 {
+  color: Black; 
+}
 /*
     'Indie Flower', cursive;
+    border-radius: 26px;
+    border: 2px solid Black;
+    padding: 5px;
+
 }
