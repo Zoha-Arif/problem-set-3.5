@@ -3,7 +3,7 @@
   font-size: 85px;
   color: #2F4F4F;
   position: relative;
-  top: 8px;
+  top: 14px;
   left: 60px;
 }
 
@@ -36,7 +36,7 @@
   text-decoration: underline;
 }
 
-p {
+p, li {
   font-family:'PT Sans', sans-serif;
   line-height: 1.0;
   font-weight: bold;
@@ -55,4 +55,21 @@ p {
   top: 300px;
   height: 300px;
   width: 500px;
+}
+
+#ketchupline6 {
+  position: relative;
+  left: 400px;
+}
+
+#ketchupline7 {
+  position: relative;
+  left: 400px;
+}
+
+#writing {
+  position: absolute;
+  height: 200px;
+  width: auto;
+  left: 1000px;
 }
