@@ -27,7 +27,9 @@ body {
   position: absolute;
   left: 45px;
   top: 190px;
-  z-index: 2
+  z-index: 2;
+  height: 290px;
+  width: 270px;
 }
 #sandint {
   position: relative;
@@ -89,6 +91,8 @@ body {
   position: absolute;
   top: 1250px;
   left: 940px;
+  height: 350px;
+  width: 400px;
 }
  #yellow {
    position: absolute;
@@ -125,6 +129,8 @@ body {
   position: absolute;
   top: 450px;
   left: 450px;
+  height: 200px;
+  width: 650px;
 }
 
 .navb {
@@ -134,15 +140,6 @@ body {
   outline-color: #483D8B;
   color: #483D8B;
   font-family: 'Black Han Sans', sans-serif;
-}
-
-#tabintro {
-  font-family: 'Acme', sans-serif;
-  font-size: 30px;
-  position: relative;
-  top: 20px;
-  color: #DC143C;
-  font-weight: bold;
 }
 
 .thed {
@@ -165,6 +162,8 @@ table, th, td {
   position: relative;
   top: 10px;
   left: 350px;
+  height: 130px;
+  width: 600px;
 }
 
 img[alt ~="Onions"] {
@@ -174,10 +173,10 @@ img[alt ~="Onions"] {
 }
 
 #hunonions {
-  position: absolute;
-  top: 1600px;
-  left: 1000px;
-  width: 200px;
+  position: relative;
+  top: 5px;
+  left: 600px;
+  width: 250px;
   height: 150px;
 }
 

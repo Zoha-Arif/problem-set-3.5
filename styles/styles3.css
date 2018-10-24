@@ -1,3 +1,7 @@
+body {
+  background-color: white;
+}
+
 #title3 {
   font-family: 'Fjalla One', sans-serif;
   font-size: 85px;
@@ -60,11 +64,15 @@ p, li {
 #ketchupline6 {
   position: relative;
   left: 400px;
+  height: 130px;
+  width: 600px;
 }
 
 #ketchupline7 {
   position: relative;
   left: 400px;
+  height: 130px;
+  width: 600px;
 }
 
 #writing {

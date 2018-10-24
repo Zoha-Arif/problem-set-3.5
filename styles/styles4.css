@@ -1,9 +1,13 @@
+body {
+  background-color: white;
+}
+
 #title5 {
   font-family: 'Fjalla One', sans-serif;
-  font-size: 55px;
+  font-size: 70px;
   color: #2F4F4F;
   position: relative;
-  top: 8px;
+  top: 25px;
   left: 60px;
 }
 
@@ -16,7 +20,26 @@
 }
 
 #charlie2 {
-  position: relative;
-  height: 300px;
-  width: 350px;
+  position: absolute;
+  top: 300px;
+  left: 1050px;
+  height: 400px;
+  width: auto;
+}
+
+article {
+  font-family:'PT Sans', sans-serif;
+  line-height: 1.0;
+  font-weight: bold;
+  width: 1000px;
+  height: auto;
+  margin: 15px;
+  padding: 10px;
+}
+
+.blogh {
+  font-family:'PT Sans', sans-serif;
+  line-height: 1.0;
+  font-weight: bold;
+  color: #828080;
 }
